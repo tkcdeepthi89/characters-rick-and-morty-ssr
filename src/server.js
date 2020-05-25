@@ -7,7 +7,7 @@ import { renderToString } from 'react-dom/server';
 import { ServerStyleSheet } from 'styled-components';
 
 const app = Express()
-const port = 3001
+const port = 3000
 
 //Serve static files
 app.use(Express.static('build/public'));

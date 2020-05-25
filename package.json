@@ -7,13 +7,14 @@
     "webpack:client": "webpack --config webpack.client.js --watch",
     "webpack:server": "webpack --config webpack.server.js --watch",
     "webpack:start": "nodemon --watch build --exec node build/bundle.js",
-    "dev": "npm-run-all --parallel webpack:*",
+    "start": "npm-run-all --parallel webpack:* ",
     "lint": "eslint src/client/**/*.js src/client/**/*.jsx"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/tkcdeepthi89/characters-rick-and-morty-ssr"
   },
+  "private": true,
   "author": "Chandra Deepthi TK <tkc_deepthi@yahoo.co.in>",
   "dependencies": {
     "express": "^4.14.0",
